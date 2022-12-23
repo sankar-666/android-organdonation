@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".OrganReqAdd">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:background="@drawable/manp" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="-20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="25dp"
+        android:textColor="#711111"
+        android:text="Organ Requirments" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="0dp"
+
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/date"
+
+        android:ems="10"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="false"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="Required Date."
+        android:inputType="date" />
+
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/idBtnDisplayProgress"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btndon"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"
+        android:text="submit" />
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    tools:context=".DonorHome">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/newbg" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textColor="#1E0000"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="-80dp"
+        android:fontFamily="cursive"
+        android:shadowRadius="2"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowColor="#5E0C0C"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="Donor Home." />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/donaton"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_height="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Donation details" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/donview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="View blood Requests" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/orgview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="View Requests" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/historybtn"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FDFDFD"
+        android:layout_height="wrap_content"
+        android:text=" history*" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/changepass"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FDFDFD"
+        android:layout_height="wrap_content"
+        android:text=" CHange Password*" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lg"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FDFDFD"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+</LinearLayout>

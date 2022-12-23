@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".ReceiverHome">
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/manp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:shadowRadius="2"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowColor="#5E5454"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Receivers Home"
+        android:textColor="#020202" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reqbtn"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_button"
+        android:text="REQUEST Here," />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reqq"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_button"
+        android:text="request status" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/changerecpass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Change password" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/custom_button"
+        android:text="Logout" />
+</LinearLayout>

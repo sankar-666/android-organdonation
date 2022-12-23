@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".BloodReqAdd">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:background="@drawable/manp" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="25dp"
+        android:textColor="#711111"
+        android:text="Blooad Requirments" />
+
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/quantity"
+
+
+        android:ems="10"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:inputType="phone"
+        android:hint="Required quantity in units"
+      />
+
+    <EditText
+        android:id="@+id/pinc"
+
+        android:ems="10"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:hint="Pincode"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/datereq"
+
+        android:ems="10"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:focusableInTouchMode="false"
+        android:hint="Required Date."
+        android:inputType="date" />
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/idBtnDisplayProgress"
+        android:layout_centerHorizontal="true"
+
+        android:layout_margin="20dp"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mlbr"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SUBMIT" />
+</LinearLayout>

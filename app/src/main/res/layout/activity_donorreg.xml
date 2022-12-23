@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f7f7f7"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".Donorreg"
+    android:layout_height="match_parent"
+
+    >
+    <ImageView
+        android:id="@+id/imageView2"
+        android:background="@drawable/reg"
+        android:layout_width="100dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="100dp"
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register as a Donor,"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="-30dp"
+        android:shadowColor = "#979292"
+        android:shadowDx = "7"
+        android:shadowDy = "7"
+        android:shadowRadius = "4"
+        android:textColor="#471414"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+
+        >
+
+        <EditText
+            android:id="@+id/donfname"
+            android:layout_width="190dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#471414"
+            android:ems="10"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:textColorHint="#471414"
+
+            android:layout_height="50dp"
+            android:background="@drawable/layout_bg"
+            android:inputType="textPersonName"
+            android:hint="First Name"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <EditText
+            android:id="@+id/donlname"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#471414"
+            android:textColorHint="#471414"
+            android:background="@drawable/layout_bg"
+            android:textStyle="bold"
+            android:ems="10"
+            android:paddingLeft="30dp"
+            android:inputType="textPersonName"
+            android:hint="Last Name"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="156dp" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/donage"
+            android:layout_width="90dp"
+            android:textColorHint="#471414"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/layout_bg"
+            android:ems="10"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textColor="#471414"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="Age" />
+
+
+        <EditText
+            android:id="@+id/donemail"
+            android:layout_width="match_parent"
+            android:paddingLeft="24dp"
+            android:layout_height="50dp"
+            android:background="@drawable/layout_bg"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:textColorHint="#471414"
+            android:textColor="#471414"
+            android:hint="Email"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="263dp" />
+
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:textColor="#471414"
+                android:checked="true"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:textColor="#471414"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+
+
+
+
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/donphone"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@drawable/layout_bg"
+            android:ems="10"
+            android:textColorHint="#471414"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="#471414"
+
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="Phone" />
+
+        <EditText
+            android:id="@+id/donpin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColorHint="#471414"
+            android:background="@drawable/layout_bg"
+            android:textStyle="bold"
+            android:ems="10"
+            android:hint="pincode"
+            android:textColor="#471414"
+            android:layout_marginBottom="15dp"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="319dp" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/donuname"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:textColorHint="#471414"
+            android:background="@drawable/layout_bg"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="30dp"
+            android:hint="Username"
+            android:textColor="#471414"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="392dp" />
+
+        <EditText
+            android:id="@+id/donpas"
+            android:layout_width="wrap_content"
+            android:paddingLeft="30dp"
+            android:layout_height="50dp"
+            android:background="@drawable/layout_bg"
+            android:textStyle="bold"
+            android:ems="10"
+            android:textColorHint="#471414"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColor="#471414"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+    </TableRow>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btreg"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="4dp"
+
+        android:layout_marginTop="12dp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="547dp" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".ViewRequestForOrgan">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textColor="#000"
+        android:text="View Requests..." />
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/newbg" />
+
+    <ListView
+        android:id="@+id/orgreq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    tools:context=".Organdonation">
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/newbg" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#711111"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="50dp"
+        android:text="Organ donation." />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000"
+            android:fontFamily="cursive"
+            android:text="Organ details : " />
+
+        <EditText
+            android:id="@+id/orgdetails"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:textColor="#601919"
+            android:fontFamily="cursive"
+            android:textColorHint="#550C0C"
+            android:background="@drawable/layout_bg"
+            android:inputType="textPersonName"
+            android:hint="Add Organ details..." />
+    </TableRow>
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/idBtnDisplayProgress"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/organbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/custom_button"
+        android:text="Submit" />
+
+
+</LinearLayout>
